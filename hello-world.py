@@ -1,2 +1,2 @@
-#!/home/dmitry/projects/saves-backup/hello-world.py python3
+#!/usr/bin/env python3
 print("Hello, World!")
