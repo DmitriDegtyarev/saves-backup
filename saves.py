@@ -5,9 +5,9 @@ import sys
 TARGET = '/home/dmitry/projects/games-saves'
 
 
-# блок проверок
+# Tests
 if not os.path.exists(TARGET):
     print('This directory does not exists')
     sys.exit()
  
-print(TARGET)
+# Human Resource Machine
