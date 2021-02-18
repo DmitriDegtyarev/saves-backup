@@ -7,4 +7,7 @@ TARGET = '/home/dmitry/projects/games-saves'
 
 # блок проверок
 if not os.path.exists(TARGET):
-    sys.exit()
+    print('This dirrectory does not exists')
+    sys.exit()
+
+print(TARGET)
