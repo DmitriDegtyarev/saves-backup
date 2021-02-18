@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-import os.path  
+import os  
 
 TARGET = '/home/dmitry/projects/games-saves'
 
 
 # блок проверок
-isdir = os.path.isdir(TARGET)  
-print(isdir)
+if not os.path.exists(TARGET):
+    os.makedirs(TARGET)
+sys.exit()
